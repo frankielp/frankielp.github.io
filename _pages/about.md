@@ -78,6 +78,7 @@ models.
 </div>
 
 # 📝 Workshops & Journals
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">3DOR 2023</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -119,6 +120,7 @@ models.
 
 <span class='anchor' id='-patents'></span>
 # ⚖️ Patents
+
 - Query-based Open-vocabulary 3D object segmentation from Gaussian Splats, **Nhat-Quynh Le-Pham**, <a href="https://www.khoinguyen.org" style="color: {{ global_link_color }}; text-decoration: none;">Khoi Nguyen</a>, <a href="https://sonhua.github.io" style="color: {{ global_link_color }}; text-decoration: none;">Binh-Son Hua</a>, **US Patent**
 
 # 🎖 Honors and Awards
