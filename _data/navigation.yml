@@ -6,17 +6,17 @@ main:
   - title: "News"
     url: "/#-news"
 
+  - title: "Employments"
+    url: "/#-employments"
+
   - title: "Publications"
     url: "/#-publications"
 
+  - title: "Workshops & Journals"
+    url: "/#-workshops--journals"
+
+  - title: "Patents"
+    url: "/#-patents"
+
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"
-
-  - title: "Educations"
-    url: "/#-educations"
-
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
-
-  - title: "Internships"
-    url: "/#-internships"

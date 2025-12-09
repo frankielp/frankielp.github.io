@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Quynh Le"
-description              : "Research Resident at Qualcomm AI Research working on 3D understanding, 3D/4D modeling, and physically grounded generative models. "
+description              : "Working on computer vision, computer graphics, and generative models."
 repository               : "frankielp/frankielp.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,9 +23,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Nhat-Quynh Le-Pham"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Qualcomm AI Research"
-  location         : "Ho Chi Minh, Vietnam"
-  employer         :
+  bio              : ""
+  location         : # "Ho Chi Minh, Vietnam"
+  employer         : #"Qualcomm AI Research"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=oWkUhagAAAAJ"
   email            : "lephamnhatquynh@gmail.com"
@@ -57,6 +57,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  cv               : "assets/files/LePhamNhatQuynh_Resume.pdf"  # path to your resume/CV PDF
 
 
 # Reading Files
