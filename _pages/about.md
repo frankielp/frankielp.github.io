@@ -20,8 +20,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 I am currently a Research Resident at <a href="https://www.qualcomm.com/research/artificial-intelligence/ai-residency-program" style="color: {{ global_link_color }}; text-decoration: none;">Qualcomm AI Research</a> under the supervision of <a href="https://sonhua.github.io" style="color: {{ global_link_color }}; text-decoration: none;">Prof. Binh-Son Hua</a> and <a href="https://www.khoinguyen.org" style="color: {{ global_link_color }}; text-decoration: none;">Dr. Khoi Nguyen</a>. I received my Bachelor’s degree in Computer Science (APCS) from the <a href="https://en.hcmus.edu.vn" style="color: {{ global_link_color }}; text-decoration: none;">University of Science, Vietnam National University Ho Chi Minh City</a>.
 
-My research interests focus on computer vision, computer graphics, and generative models. I am interested in simulating realistic 3D worlds using physically grounded generative
-models that integrate geometry, appearance, and motion.
+My research interests focus on computer vision, computer graphics, and generative models. I am interested in simulating realistic 3D worlds using physically grounded generative models that integrate geometry, appearance, and motion.
 
 
 # 🔥 News
@@ -50,7 +49,7 @@ models.
 </div>
 </div> 
 -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 (Under Review)</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 (Under Review)</div><img src='assets/files/cvpr26.gif' alt="CVPR 2026" width="100%" style="display:block;"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## Prepare Lighter and Faster for Open-Vocabulary Queries: A Query-Wise 3D Segmenter for Gaussian Splatting
@@ -63,7 +62,7 @@ models.
 
 </div>
 </div>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Bachelor Thesis (2024)</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Bachelor Thesis (2024)</div><img src='assets/files/thesis.gif' alt="Bachelor Thesis" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## Text-to-4D Content Creation using Image Priors and Monocular Driver Videos
@@ -77,9 +76,14 @@ models.
 </div>
 </div>
 
+<span class='anchor' id='-patents'></span>
+# ⚖️ Patents
+
+- Query-based Open-vocabulary 3D object segmentation from Gaussian Splats, **Nhat-Quynh Le-Pham**, <a href="https://www.khoinguyen.org" style="color: {{ global_link_color }}; text-decoration: none;">Khoi Nguyen</a>, <a href="https://sonhua.github.io" style="color: {{ global_link_color }}; text-decoration: none;">Binh-Son Hua</a>, **US Patent**
+
 # 📝 Workshops & Journals
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">3DOR 2023</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">3DOR 2023</div><img src='assets/files/sketchanimar.png' alt="SketchANIMAR" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## SketchANIMAR: Sketch-Based 3D Animal Fine-Grained Retrieval
@@ -92,7 +96,7 @@ models.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">3DOR 2023</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">3DOR 2023</div><img src='assets/files/textanimar.png' alt="TextANIMAR" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## TextANIMAR: Text-Based 3D Animal Fine-Grained Retrieval
@@ -105,7 +109,7 @@ models.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">3DOR 2022</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">3DOR 2022</div><img src='assets/files/shrec22.png' alt="SHREC 2022" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## Fitting and Recognition of Simple Geometric Primitives on Point Clouds
@@ -118,11 +122,6 @@ models.
 </div>
 </div>
 
-<span class='anchor' id='-patents'></span>
-# ⚖️ Patents
-
-- Query-based Open-vocabulary 3D object segmentation from Gaussian Splats, **Nhat-Quynh Le-Pham**, <a href="https://www.khoinguyen.org" style="color: {{ global_link_color }}; text-decoration: none;">Khoi Nguyen</a>, <a href="https://sonhua.github.io" style="color: {{ global_link_color }}; text-decoration: none;">Binh-Son Hua</a>, **US Patent**
-
 # 🎖 Honors and Awards
 - *2023.10* Awarded the **Vietnam Female Students in Science and Technology Award** (Top 20 nationwide).
 - *2023.03* Received the **Top GPA Scholarship** from the Faculty of Information Technology, University of Science (Top 1%).
@@ -131,6 +130,8 @@ models.
 - *2022.02* **3rd Place**, SHREC 2022 — Fitting and Recognition of Geometric Primitives (3DOR’22).
 - *2021.12* **Finalist**, Ho Chi Minh City AI Challenge.
 
+# 📄 Professional Services
+- Reviewers: CVPRW 2025, ICCV 2025, ICLR 2026.
 
 <!-- # 📖 Educations
 - *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
