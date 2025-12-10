@@ -6,17 +6,17 @@ main:
   - title: "News"
     url: "/#-news"
 
-  - title: "Employments"
-    url: "/#-employments"
+  - title: "Experience"
+    url: "/#-experience"
 
   - title: "Publications"
     url: "/#-publications"
 
-  - title: "Workshops & Journals"
-    url: "/#-workshops--journals"
-
   - title: "Patents"
     url: "/#-patents"
+
+  - title: "Workshops & Journals"
+    url: "/#-workshops--journals"
 
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"

@@ -23,18 +23,18 @@ I am currently a Research Resident at <a href="https://www.qualcomm.com/research
 My research interests focus on computer vision, computer graphics, and generative models. I am interested in simulating realistic 3D worlds using physically grounded generative models that integrate geometry, appearance, and motion.
 
 
-# 🔥 News
-- *2025.02*: &nbsp;🎉🎉 Transitioned to **Qualcomm AI Research** as a Research Resident, focusing on open-vocabulary 3D understanding and physically grounded generative
+# <i class="fas fa-bell"></i> News
+- *2025.02*: Transitioned to **Qualcomm AI Research** as a Research Resident, focusing on open-vocabulary 3D understanding and physically grounded generative
 models.
-- *2023.10*: &nbsp;🎉🎉 Won the **Vietnam Female Students in Science and Technology Award** (Top 20 nationwide).
-- *2023.08*: &nbsp;🎉🎉 Joined **VinAI Research** as a Research Resident, working on 3D/4D modeling and neural scene representations.
+- *2023.10*: Won the **Vietnam Female Students in Science and Technology Award** (Top 20 nationwide).
+- *2023.08*: Joined **VinAI Research** as a Research Resident, working on 3D/4D modeling and neural scene representations.
 
-# 💻 Employments
+# <i class="fas fa-briefcase"></i> Experience
 - *2023.08 - Present*, Research Resident at <a href="https://www.qualcomm.com/research/artificial-intelligence/ai-residency-program" style="color: {{ global_link_color }}; text-decoration: none;">Qualcomm AI Research</a>
 - *2025.08 - 2025.10*, AI Engineer at <a href="https://www.cloudthinker.io" style="color: {{ global_link_color }}; text-decoration: none;">CloudThinker</a>.
 - *2021.06 - 2021.12*, Data Scientist Intern at <a href="https://mti-vietnam.vn" style="color: {{ global_link_color }}; text-decoration: none;">AI Lab, MTI Technology</a>.
 
-# 📝 Publications 
+# <i class="fas fa-file-alt"></i> Publications 
 
 <!-- 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
@@ -77,11 +77,11 @@ models.
 </div>
 
 <span class='anchor' id='-patents'></span>
-# ⚖️ Patents
+# <i class="fas fa-certificate"></i> Patents
 
 - Query-based Open-vocabulary 3D object segmentation from Gaussian Splats, **Nhat-Quynh Le-Pham**, <a href="https://www.khoinguyen.org" style="color: {{ global_link_color }}; text-decoration: none;">Khoi Nguyen</a>, <a href="https://sonhua.github.io" style="color: {{ global_link_color }}; text-decoration: none;">Binh-Son Hua</a>, **US Patent**
 
-# 📝 Workshops & Journals
+# <i class="fas fa-book"></i> Workshops & Journals
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">3DOR 2023</div><img src='assets/files/sketchanimar.png' alt="SketchANIMAR" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -122,7 +122,7 @@ models.
 </div>
 </div>
 
-# 🎖 Honors and Awards
+# <i class="fas fa-award"></i> Honors and Awards
 - *2023.10* Awarded the **Vietnam Female Students in Science and Technology Award** (Top 20 nationwide).
 - *2023.03* Received the **Top GPA Scholarship** from the Faculty of Information Technology, University of Science (Top 1%).
 - *2023.03* **First Prize**, SHREC 2023 — Sketch-Based 3D Animal Fine-Grained Retrieval (3DOR’23).
@@ -130,7 +130,7 @@ models.
 - *2022.02* **3rd Place**, SHREC 2022 — Fitting and Recognition of Geometric Primitives (3DOR’22).
 - *2021.12* **Finalist**, Ho Chi Minh City AI Challenge.
 
-# 📄 Professional Services
+# <i class="fas fa-users"></i> Professional Services
 - Reviewers: CVPRW 2025, ICCV 2025, ICLR 2026.
 
 <!-- # 📖 Educations
