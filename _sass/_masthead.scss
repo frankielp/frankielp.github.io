@@ -1,11 +1,11 @@
 /* ==========================================================================
-   MASTHEAD
+   MASTHEAD - Clean Mobile Navigation
    ========================================================================== */
 
 .masthead {
   position: sticky;
   top: 0;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.98);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-bottom: 1px solid $border-color;
@@ -16,8 +16,12 @@
   &__inner-wrap {
     max-width: $x-large;
     margin: 0 auto;
-    padding: 0.6em 2em;
+    padding: 0.75em 1em;
     font-family: $sans-serif-narrow;
+    
+    @include breakpoint($medium) {
+      padding: 0.6em 2em;
+    }
 
     nav {
       z-index: 10;
@@ -26,20 +30,25 @@
     a {
       text-decoration: none;
       color: $masthead-link-color;
-      padding: 0.4em 0.8em;
+      padding: 0.4em 0.6em;
       border-radius: $border-radius-sm;
       transition: $global-transition;
+      font-size: 0.8em;
+      
+      @include breakpoint($medium) {
+        padding: 0.4em 0.8em;
+        font-size: 0.9em;
+      }
       
       &:hover {
         color: $masthead-link-color-hover;
-        background: $snow;
+        background: $slate-100;
       }
     }
   }
 }
 
 .masthead__menu {
-
   ul {
     margin: 0;
     padding: 0;
@@ -47,29 +56,50 @@
     list-style-type: none;
     display: flex;
     align-items: center;
-    gap: 0.25em;
+    gap: 0.1em;
+    
+    // Mobile: horizontal scroll
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    
+    @include breakpoint($medium) {
+      gap: 0.2em;
+      overflow-x: visible;
+    }
   }
 }
 
 .masthead__menu-home-item {
-  @include breakpoint($medium) {
-    display: block !important;
-  }
-  display: none !important;
+  display: block !important;
 }
 
 .masthead__menu-item {
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  flex-shrink: 0;
 
   &--lg {
-    padding-right: 2em;
+    padding-right: 0.5em;
     font-weight: 600;
     
+    @include breakpoint($medium) {
+      padding-right: 1.5em;
+    }
+    
     a {
-      font-size: 1.1em;
+      font-size: 1em;
       color: $dark-navy !important;
+      padding: 0.4em 0;
+      
+      @include breakpoint($medium) {
+        font-size: 1.1em;
+      }
       
       &:hover {
         background: transparent !important;

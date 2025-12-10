@@ -1,22 +1,24 @@
 /* ==========================================================================
-   SIDEBAR - Fixed on scroll
+   SIDEBAR - Clean Mobile-first Design
    ========================================================================== */
 
 .sidebar {
   @include clearfix();
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
+  padding: 0 1em;
 
   @include breakpoint($large) {
     position: fixed;
     top: 70px;
     left: 50%;
-    transform: translateX(-640px); // Half of max-width (1280px) to align with container
-    width: 240px; // Wide enough for full name on one line
+    transform: translateX(-640px);
+    width: 240px;
     height: calc(100vh - 90px);
     overflow-y: auto;
+    padding: 0;
     padding-right: 1em;
+    margin-bottom: 0;
     
-    // Hide scrollbar but keep functionality
     scrollbar-width: none;
     -ms-overflow-style: none;
     &::-webkit-scrollbar {
@@ -24,7 +26,6 @@
     }
   }
   
-  // Adjust for smaller screens
   @include breakpoint($large) {
     @media (max-width: 1280px) {
       left: 2em;
@@ -35,10 +36,6 @@
   h2, h3, h4, h5, h6 {
     margin-bottom: 0;
     font-family: $sans-serif-narrow;
-  }
-
-  h3, h4 {
-    font-size: $type-size-5;
   }
 
   p, li {
@@ -52,56 +49,48 @@
   }
 }
 
-.sidebar__right {
-  margin-bottom: 1em;
-
-  @include breakpoint($large) {
-    position: relative;
-    float: right;
-    width: $right-sidebar-width-narrow;
-    margin-left: span(0.5 of 12);
-    z-index: 10;
-  }
-
-  @include breakpoint($x-large) {
-    width: $right-sidebar-width;
-  }
-}
-
 /*
-   Author profile
+   Author profile - Clean mobile card
    ========================================================================== */
 
 .profile_box {
-  @include breakpoint($large) {
-    display: block;
-  }
   display: flex;
-  justify-content: flex-start;
-  align-content: flex-start;
+  flex-direction: row;
   align-items: center;
+  gap: 1em;
+  padding: 1.25em;
+  background: $slate-50;
+  border-radius: $border-radius;
+  border: 1px solid $border-color;
+  
+  @include breakpoint($large) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+  }
 }
 
 .author__avatar {
-  display: table-cell;
-  vertical-align: top;
-  width: 75px;
-
-  @include breakpoint($large) {
-    display: block;
-    width: auto;
-    height: auto;
-  }
+  flex-shrink: 0;
 
   img {
-    max-width: 160px;
-    min-width: 75px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
-    border: 3px solid $border-color;
+    border: 3px solid white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     transition: $global-transition;
+    object-fit: cover;
 
     @include breakpoint($large) {
-      padding: 0;
+      width: 160px;
+      height: 160px;
+      border: 3px solid $border-color;
+      box-shadow: none;
     }
     
     &:hover {
@@ -111,92 +100,75 @@
 }
 
 .author__content {
-  display: table-cell;
-  vertical-align: top;
-  padding-left: 10px;
-  min-width: 120px;
-  line-height: 1.3;
+  flex: 1;
+  min-width: 0;
 
   @include breakpoint($large) {
-    display: block;
     width: 100%;
-    padding-left: 0;
-    padding-right: 0;
     margin-top: 1em;
   }
 }
 
 .author__name {
-  margin: 0;
-  white-space: nowrap; // Keep name on one line
+  margin: 0 0 0.1em 0;
   color: $dark-navy;
   font-weight: 600;
-
+  font-size: 1.15em;
+  font-family: $sans-serif;
+  
   @include breakpoint($large) {
     margin-top: 8px;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
+    font-size: $type-size-4;
   }
 }
 
-.sidebar .author__name {
-  @include breakpoint($medium) {
-    font-size: $type-size-4;
+.author__nickname {
+  margin: 0 0 0.5em 0;
+  color: $slate-400;
+  font-size: 0.85em;
+  font-family: Georgia, serif;
+  font-style: italic;
+  letter-spacing: 0.05em;
+  
+  @include breakpoint($large) {
+    text-align: center;
+    font-size: 0.95em;
+    margin-bottom: 12px;
   }
-  font-family: $sans-serif;
-  font-size: $type-size-5;
 }
 
 .author__bio {
   margin: 0;
   color: $text-muted;
-  font-size: 0.9em;
+  font-size: 0.8em;
+  line-height: 1.4;
+  display: none;
 
   @include breakpoint($large) {
+    display: block;
     margin-top: 8px;
     margin-bottom: 16px;
+    font-size: 0.9em;
   }
 }
 
 .author__urls-wrapper {
   position: relative;
-  display: table-cell;
-  vertical-align: middle;
   font-family: $sans-serif;
   z-index: 10;
-  margin-left: auto;
-  cursor: pointer;
-
-  li:last-child a {
-    margin-bottom: 0;
-  }
 
   @include breakpoint($large) {
     display: block;
   }
 
   button {
-    margin-bottom: 0;
-    width: 120px;
-    padding: 0.5em;
-    @include breakpoint($large) {
-      display: none;
-    }
+    display: none;
   }
 }
 
 .author__urls {
   display: none;
-  position: absolute;
-  right: 0;
-  margin-top: 15px;
-  padding: 10px;
-  list-style-type: none;
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
-  background: #fff;
-  z-index: -1;
-  box-shadow: $box-shadow-lg;
-  cursor: default;
 
   @include breakpoint($large) {
     display: block;
@@ -206,44 +178,16 @@
     border: 0;
     background: transparent;
     box-shadow: none;
-  }
-
-  &:before {
-    display: block;
-    content: "";
-    position: absolute;
-    top: -11px;
-    left: calc(50% - 10px);
-    width: 0;
-    border-style: solid;
-    border-width: 0 10px 10px;
-    border-color: $border-color transparent;
-    z-index: 0;
-
-    @include breakpoint($large) {
-      display: none;
-    }
-  }
-
-  &:after {
-    display: block;
-    content: "";
-    position: absolute;
-    top: -10px;
-    left: calc(50% - 10px);
-    width: 0;
-    border-style: solid;
-    border-width: 0 10px 10px;
-    border-color: #fff transparent;
-    z-index: 1;
-
-    @include breakpoint($large) {
-      display: none;
-    }
+    list-style-type: none;
   }
 
   li {
     white-space: nowrap;
+    
+    // Hide description on desktop sidebar
+    > div {
+      display: none;
+    }
   }
 
   a {
@@ -261,28 +205,67 @@
     
     i {
       width: 1.4em;
-      color: $gray;
+      color: $slate-400;
     }
   }
 }
 
+/* ==========================================================================
+   Mobile Social Icons - Clean pill buttons
+   ========================================================================== */
+
 .author__urls_sm {
-  padding: .25em;
-  font-size: 1.5em;
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  margin-top: 0.75em;
   
   a {
-    color: $gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    color: $slate-500;
+    background: white;
+    border: 1px solid $slate-200;
+    border-radius: 50%;
     text-decoration: none;
-    padding: 0.2em;
     transition: $global-transition;
+    font-size: 1em;
     
-    &:hover {
-      color: $link-color;
+    &:hover, &:active {
+      color: white;
+      background: $ocean-blue;
+      border-color: $ocean-blue;
+    }
+    
+    i {
+      margin: 0;
     }
   }
   
   @include breakpoint($large) {
     display: none;
+  }
+}
+
+/* ==========================================================================
+   Sidebar Right
+   ========================================================================== */
+
+.sidebar__right {
+  margin-bottom: 1em;
+
+  @include breakpoint($large) {
+    position: relative;
+    float: right;
+    width: $right-sidebar-width-narrow;
+    margin-left: span(0.5 of 12);
+    z-index: 10;
+  }
+
+  @include breakpoint($x-large) {
+    width: $right-sidebar-width;
   }
 }
