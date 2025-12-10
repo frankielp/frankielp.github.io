@@ -2,15 +2,49 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+        <!-- Homepage link always visible -->
+        <a href="#about-me" class="site-title">Homepage</a>
+        
+        <!-- Hamburger button for mobile -->
+        <button id="nav-toggle"><div class="navicon"></div></button>
+        
+        <!-- Desktop navigation -->
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
           {% for link in site.data.navigation.main %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
-        <ul class="hidden-links hidden"></ul>
+        
+        <!-- Mobile navigation (hidden by default) -->
+        <ul class="hidden-links" id="mobile-nav">
+          {% for link in site.data.navigation.main %}
+            <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+          {% endfor %}
+        </ul>
       </nav>
     </div>
   </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var navToggle = document.getElementById('nav-toggle');
+  var mobileNav = document.getElementById('mobile-nav');
+  
+  if (navToggle && mobileNav) {
+    navToggle.addEventListener('click', function() {
+      navToggle.classList.toggle('close');
+      mobileNav.classList.toggle('is-visible');
+    });
+    
+    // Close menu when clicking a link
+    var mobileLinks = mobileNav.querySelectorAll('a');
+    mobileLinks.forEach(function(link) {
+      link.addEventListener('click', function() {
+        navToggle.classList.remove('close');
+        mobileNav.classList.remove('is-visible');
+      });
+    });
+  }
+});
+</script>
