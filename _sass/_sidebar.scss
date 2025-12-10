@@ -1,5 +1,5 @@
 /* ==========================================================================
-   SIDEBAR - Clean Mobile-first Design
+   SIDEBAR - Clean Minimal Design
    ========================================================================== */
 
 .sidebar {
@@ -50,7 +50,7 @@
 }
 
 /*
-   Author profile - Clean mobile card
+   Author profile
    ========================================================================== */
 
 .profile_box {
@@ -65,12 +65,13 @@
   
   @include breakpoint($large) {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 0;
     padding: 0;
     background: transparent;
     border: none;
     border-radius: 0;
+    text-align: center;
   }
 }
 
@@ -87,14 +88,13 @@
     object-fit: cover;
 
     @include breakpoint($large) {
-      width: 160px;
-      height: 160px;
-      border: 3px solid $border-color;
-      box-shadow: none;
+      width: 150px;
+      height: 150px;
+      border: 3px solid $slate-200;
     }
     
     &:hover {
-      border-color: $sky-blue;
+      border-color: $ocean-blue;
     }
   }
 }
@@ -113,43 +113,40 @@
   margin: 0 0 0.1em 0;
   color: $dark-navy;
   font-weight: 600;
-  font-size: 1.15em;
+  font-size: 1.1em;
   font-family: $sans-serif;
+  white-space: nowrap;
   
   @include breakpoint($large) {
-    margin-top: 8px;
-    margin-bottom: 4px;
-    font-size: $type-size-4;
+    font-size: 1.2em;
+    margin-bottom: 0.25em;
   }
 }
 
 .author__nickname {
-  margin: 0 0 0.5em 0;
+  margin: 0 0 0.1em 0;
   color: $slate-400;
   font-size: 0.85em;
   font-family: Georgia, serif;
   font-style: italic;
-  letter-spacing: 0.05em;
   
   @include breakpoint($large) {
-    text-align: center;
-    font-size: 0.95em;
-    margin-bottom: 12px;
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
   }
 }
 
 .author__bio {
   margin: 0;
-  color: $text-muted;
+  color: $slate-500;
   font-size: 0.8em;
   line-height: 1.4;
   display: none;
 
   @include breakpoint($large) {
     display: block;
-    margin-top: 8px;
-    margin-bottom: 16px;
-    font-size: 0.9em;
+    margin-bottom: 1em;
+    font-size: 0.85em;
   }
 }
 
@@ -160,6 +157,10 @@
 
   @include breakpoint($large) {
     display: block;
+    width: 100%;
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+    border-top: 1px solid $border-color;
   }
 
   button {
@@ -172,52 +173,49 @@
 
   @include breakpoint($large) {
     display: block;
-    position: relative;
     margin: 0;
     padding: 0;
-    border: 0;
-    background: transparent;
-    box-shadow: none;
     list-style-type: none;
   }
 
   li {
     white-space: nowrap;
     
-    // Hide description on desktop sidebar
     > div {
       display: none;
     }
   }
 
   a {
-    display: block;
-    margin-bottom: 4px;
-    padding: 4px 0;
-    color: $text-color;
-    font-size: $type-size-6;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 0;
+    color: $slate-600;
+    font-size: 0.875em;
     text-decoration: none;
-    transition: $global-transition;
+    transition: color 0.15s ease;
 
     &:hover {
-      color: $link-color;
+      color: $ocean-blue;
     }
     
     i {
-      width: 1.4em;
+      width: 16px;
       color: $slate-400;
+      text-align: center;
     }
   }
 }
 
 /* ==========================================================================
-   Mobile Social Icons - Clean pill buttons
+   Mobile Social Icons
    ========================================================================== */
 
 .author__urls_sm {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4em;
+  gap: 0.5em;
   margin-top: 0.75em;
   
   a {
@@ -232,7 +230,6 @@
     border-radius: 50%;
     text-decoration: none;
     transition: $global-transition;
-    font-size: 1em;
     
     &:hover, &:active {
       color: white;
