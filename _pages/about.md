@@ -30,8 +30,9 @@ models.
 - *2023.08*: Joined **VinAI Research** as a Research Resident, working on 3D/4D modeling and neural scene representations.
 
 # <i class="fas fa-briefcase"></i> Experience
-- *2023.08 - Present*, Research Resident at <a href="https://www.qualcomm.com/research/artificial-intelligence/ai-residency-program" style="color: {{ global_link_color }}; text-decoration: none;">Qualcomm AI Research</a>
+- *2025.02 - Present*, Research Resident at <a href="https://www.qualcomm.com/research/artificial-intelligence/ai-residency-program" style="color: {{ global_link_color }}; text-decoration: none;">Qualcomm AI Research</a>
 - *2025.08 - 2025.10*, AI Engineer at <a href="https://www.cloudthinker.io" style="color: {{ global_link_color }}; text-decoration: none;">CloudThinker</a>.
+- *2023.08 - 2025.02*, Research Resident at <a href="https://www.vinai.io" style="color: {{ global_link_color }}; text-decoration: none;">VinAI Research</a>.
 - *2021.06 - 2021.12*, Data Scientist Intern at <a href="https://mti-vietnam.vn" style="color: {{ global_link_color }}; text-decoration: none;">AI Lab, MTI Technology</a>.
 
 # <i class="fas fa-file-alt"></i> Publications 
@@ -62,7 +63,7 @@ models.
 
 </div>
 </div>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Bachelor Thesis (2024)</div><img src='assets/files/thesis.gif' alt="Bachelor Thesis" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Bachelor Thesis 2024</div><img src='assets/files/thesis.gif' alt="Bachelor Thesis" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## Text-to-4D Content Creation using Image Priors and Monocular Driver Videos

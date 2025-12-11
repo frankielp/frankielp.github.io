@@ -268,3 +268,50 @@
     width: $right-sidebar-width;
   }
 }
+
+/* ==========================================================================
+   Mobile fixes - make profile icons clickable on iPhone
+   ========================================================================== */
+@media (max-width: 767px) {
+  .sidebar {
+    position: relative;
+    z-index: 100;
+  }
+  
+  .profile_box {
+    position: relative;
+    z-index: 101;
+    // Ensure nothing overlaps the profile box
+    isolation: isolate;
+  }
+  
+  .author__urls_sm {
+    position: relative;
+    z-index: 102;
+    
+    a {
+      position: relative;
+      z-index: 103;
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
+      cursor: pointer;
+      // Ensure the link receives touch events
+      pointer-events: auto;
+    }
+    
+    i {
+      pointer-events: none;
+    }
+  }
+  
+  // Ensure page content doesn't overlap sidebar
+  .page {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .page__content {
+    position: relative;
+    z-index: 1;
+  }
+}
