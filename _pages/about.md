@@ -57,7 +57,7 @@ models.
 
 **Nhat-Quynh Le-Pham**, <a href="https://www.khoinguyen.org" style="color: {{ global_link_color }}; text-decoration: none;">Khoi Nguyen</a>, <a href="https://sonhua.github.io" style="color: {{ global_link_color }}; text-decoration: none;">Binh-Son Hua</a>
 
-<a href="https://drive.google.com/file/d/1uR7k793JVMszBk53--x0GA3NtRxbDGg7/view?usp=sharing" style="color: {{ global_link_color }}; text-decoration: none;">Paper</a> <a href="https://drive.google.com/file/d/1y9SEKR3Y4CYbSyte_sAc-Gn0N7NJKJV9B/view?usp=sharing" style="color: {{ global_link_color }}; text-decoration: none;">Video</a> <strong><span class='show_paper_citations'></span></strong>
+<!-- <a href="https://drive.google.com/file/d/1uR7k793JVMszBk53--x0GA3NtRxbDGg7/view?usp=sharing" style="color: {{ global_link_color }}; text-decoration: none;">Paper</a> <a href="https://drive.google.com/file/d/1y9SEKR3Y4CYbSyte_sAc-Gn0N7NJKJV9B/view?usp=sharing" style="color: {{ global_link_color }}; text-decoration: none;">Video</a> <strong><span class='show_paper_citations'></span></strong> -->
 - Proposed a novel on-device, lightning-fast query-wise open-vocabulary 3D instance segmentation framework for 2D/3D Gaussian Splatting. 
 - Achieved state-of-the-art runtime efficiency and visual quality.
 
