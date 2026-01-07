@@ -18,7 +18,7 @@ redirect_from:
 {% assign global_link_color = "#0074B8" %}
 
 <span class='anchor' id='about-me'></span>
-I am currently a Research Resident at <a href="https://www.qualcomm.com/research/artificial-intelligence/ai-residency-program" style="color: {{ global_link_color }}; text-decoration: none;">Qualcomm AI Research</a> under the supervision of <a href="https://sonhua.github.io" style="color: {{ global_link_color }}; text-decoration: none;">Prof. Binh-Son Hua</a> and <a href="https://www.khoinguyen.org" style="color: {{ global_link_color }}; text-decoration: none;">Dr. Khoi Nguyen</a>. I received my Bachelor’s degree in Computer Science (APCS) from the <a href="https://en.hcmus.edu.vn" style="color: {{ global_link_color }}; text-decoration: none;">University of Science, Vietnam National University Ho Chi Minh City</a>.
+I am currently a Research Resident at <a href="https://www.qualcomm.com/research/artificial-intelligence/ai-residency-program" style="color: {{ global_link_color }}; text-decoration: none;">Qualcomm AI Research</a> under the supervision of <a href="https://sonhua.github.io" style="color: {{ global_link_color }}; text-decoration: none;">Prof. Binh-Son Hua</a>. I received my Bachelor’s degree in Computer Science (APCS) from the <a href="https://en.hcmus.edu.vn" style="color: {{ global_link_color }}; text-decoration: none;">University of Science, Vietnam National University Ho Chi Minh City</a>.
 
 My research interests focus on computer vision, computer graphics, and generative models. I am interested in simulating realistic 3D worlds using physically grounded generative models that integrate geometry, appearance, and motion.
 
