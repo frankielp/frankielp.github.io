@@ -30,11 +30,6 @@ models.
 - *2023.10*: Won the **Vietnam Female Students in Science and Technology Award** (Top 20 nationwide).
 - *2023.08*: Joined **VinAI Research** as a Research Resident, working on 3D/4D modeling and neural scene representations.
 
-# <i class="fas fa-briefcase"></i> Experience
-- *2025.04 - 2026.02*, Research Resident at <a href="https://www.qualcomm.com/research/artificial-intelligence/ai-residency-program" style="color: {{ global_link_color }}; text-decoration: none;">Qualcomm AI Research</a>
-- *2023.08 - 2025.04*, Research Resident at <a href="https://www.vinai.io" style="color: {{ global_link_color }}; text-decoration: none;">VinAI Research</a>.
-- *2021.06 - 2021.12*, Data Scientist Intern at <a href="https://mti-vietnam.vn" style="color: {{ global_link_color }}; text-decoration: none;">AI Lab, MTI Technology</a>.
-
 # <i class="fas fa-file-alt"></i> Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='assets/files/cvpr26.gif' alt="CVPR 2026" width="100%" style="display:block;"></div></div>
@@ -105,6 +100,11 @@ Trong-Vu Hoang, <a href="https://nqbinhcs.github.io" style="color: inherit; text
 # <i class="fas fa-certificate"></i> Patents
 
 - Query-based Open-vocabulary 3D object segmentation from Gaussian Splats, **Nhat-Quynh Le-Pham**, <a href="https://www.khoinguyen.org" style="color: inherit; text-decoration: none;">Khoi Nguyen</a>, <a href="https://sonhua.github.io" style="color: inherit; text-decoration: none;">Binh-Son Hua</a>, **US Patent**
+
+# <i class="fas fa-briefcase"></i> Experience
+- *2025.04 - 2026.02*, Research Resident at <a href="https://www.qualcomm.com/research/artificial-intelligence/ai-residency-program" style="color: {{ global_link_color }}; text-decoration: none;">Qualcomm AI Research</a>
+- *2023.08 - 2025.04*, Research Resident at <a href="https://www.vinai.io" style="color: {{ global_link_color }}; text-decoration: none;">VinAI Research</a>.
+- *2021.06 - 2021.12*, Data Scientist Intern at <a href="https://mti-vietnam.vn" style="color: {{ global_link_color }}; text-decoration: none;">AI Lab, MTI Technology</a>.
 
 # <i class="fas fa-award"></i> Honors and Awards
 - *2023.10* Awarded the **Vietnam Female Students in Science and Technology Award** (Top 20 nationwide).
