@@ -18,12 +18,13 @@ redirect_from:
 {% assign global_link_color = "#4c7273" %}
 
 <span class='anchor' id='about-me'></span>
-I am currently a PhD student in Computer Science at <a href="https://www.tcd.ie/scss/" style="color: {{ global_link_color }}; text-decoration: none;">Trinity College Dublin</a> under the supervision of <a href="https://sonhua.github.io" style="color: {{ global_link_color }}; text-decoration: none;">Prof. Binh-Son Hua</a>. I received my Bachelor’s degree in Computer Science (APCS) from the <a href="https://en.hcmus.edu.vn" style="color: {{ global_link_color }}; text-decoration: none;">University of Science, Vietnam National University Ho Chi Minh City</a>.
+I am currently a PhD student in Computer Science at <a href="https://www.tcd.ie/scss/" style="color: {{ global_link_color }}; text-decoration: none;">Trinity College Dublin</a> under the supervision of <a href="https://sonhua.github.io" style="color: {{ global_link_color }}; text-decoration: none;">Prof. Binh-Son Hua</a>. Previously, I was a Research Resident at <a href="https://www.qualcomm.com/research/artificial-intelligence/ai-residency-program" style="color: {{ global_link_color }}; text-decoration: none;">Qualcomm AI Research</a>. I received my Bachelor’s degree in Computer Science (APCS) from the <a href="https://en.hcmus.edu.vn" style="color: {{ global_link_color }}; text-decoration: none;">University of Science, Vietnam National University Ho Chi Minh City</a>.
 
 My research interests focus on artificial intelligence, computer vision and computer graphics, with a particular emphasis on 3D understanding and 3D/4D generative modeling. I am interested in building models that can perceive, represent, and generate dynamic 3D worlds.
 
 
 # <i class="fas fa-bell"></i> News
+- *2026.08*: Moved to **Dublin, Ireland** to pursue a PhD in Computer Science at **Trinity College Dublin**, focusing on dynamic 3D reconstruction.
 - *2025.02*: Transitioned to **Qualcomm AI Research** as a Research Resident, focusing on open-vocabulary 3D understanding and physically grounded generative
 models.
 - *2023.10*: Won the **Vietnam Female Students in Science and Technology Award** (Top 20 nationwide).
@@ -65,7 +66,7 @@ models.
 
 ## SketchANIMAR: Sketch-Based 3D Animal Fine-Grained Retrieval
 
-Trong-Vu Hoang, Quang-Binh Nguyen, **Nhat-Quynh Le-Pham**, Huu-Phuc Pham, Hai-Dang Nguyen
+Trong-Vu Hoang, <a href="https://nqbinhcs.github.io" style="color: inherit; text-decoration: none;">Quang-Binh Nguyen</a>, **Nhat-Quynh Le-Pham**, Huu-Phuc Pham, Hai-Dang Nguyen
 
 <span class="paper-venue">Computers & Graphics 2023 (Elsevier)</span>
 
@@ -78,7 +79,7 @@ Trong-Vu Hoang, Quang-Binh Nguyen, **Nhat-Quynh Le-Pham**, Huu-Phuc Pham, Hai-Da
 
 ## TextANIMAR: Text-Based 3D Animal Fine-Grained Retrieval
 
-**Nhat-Quynh Le-Pham**, Huu-Phuc Pham, Trong-Vu Hoang, Quang-Binh Nguyen, Hai-Dang Nguyen
+**Nhat-Quynh Le-Pham**, Huu-Phuc Pham, Trong-Vu Hoang, <a href="https://nqbinhcs.github.io" style="color: inherit; text-decoration: none;">Quang-Binh Nguyen</a>, Hai-Dang Nguyen
 
 <span class="paper-venue">Computers & Graphics 2023 (Elsevier)</span>
 
