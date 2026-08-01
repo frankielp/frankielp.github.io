@@ -48,6 +48,10 @@
     padding: 1.25em 0;
     border-bottom: 1px solid $border-color;
 
+    &:last-of-type {
+        border-bottom: none;
+    }
+
     .paper-box-image {
         display: flex;
         align-items: center;
