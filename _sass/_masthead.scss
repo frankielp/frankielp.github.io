@@ -1,29 +1,25 @@
 /* ==========================================================================
-   MASTHEAD - Mobile Hamburger Menu
+   MASTHEAD — clean academic nav
    ========================================================================== */
 
 .masthead {
   position: sticky;
   top: 0;
-  background: rgba(255, 255, 255, 0.98);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: $white;
   border-bottom: 1px solid $border-color;
-  animation: intro 0.3s both;
-  animation-delay: 0.15s;
   z-index: 20;
 
   &__inner-wrap {
     max-width: $x-large;
     margin: 0 auto;
-    padding: 0.75em 1em;
-    font-family: $sans-serif-narrow;
+    padding: 0.65em 1em;
+    font-family: $sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
     
     @include breakpoint($medium) {
-      padding: 0.6em 2em;
+      padding: 0.55em 2em;
     }
 
     nav {
@@ -34,19 +30,19 @@
     a {
       text-decoration: none;
       color: $masthead-link-color;
-      padding: 0.4em 0.6em;
+      padding: 0.35em 0.55em;
       border-radius: $border-radius-sm;
       transition: $global-transition;
-      font-size: 0.8em;
+      font-size: 0.85em;
       
       @include breakpoint($medium) {
-        padding: 0.4em 0.8em;
+        padding: 0.35em 0.7em;
         font-size: 0.9em;
       }
       
       &:hover {
         color: $masthead-link-color-hover;
-        background: $slate-100;
+        background: transparent;
       }
     }
   }
@@ -60,19 +56,19 @@
   background: transparent;
   
   .site-title {
-    font-size: 1.1em;
+    font-size: 1.05em;
     font-weight: 600;
-    color: $dark-navy !important;
-    padding: 0.4em 0;
+    font-family: $serif;
+    color: $ridge-night !important;
+    padding: 0.35em 0;
     margin-right: auto;
     
     &:hover {
       background: transparent !important;
-      color: $link-color !important;
+      color: $sage-stone !important;
     }
   }
   
-  // Hamburger button - visible on mobile
   > button {
     display: flex;
     align-items: center;
@@ -93,7 +89,7 @@
       position: relative;
       width: 20px;
       height: 2px;
-      background: $dark-navy;
+      background: $ridge-night;
       transition: all 0.2s ease;
       
       &::before,
@@ -103,17 +99,12 @@
         left: 0;
         width: 20px;
         height: 2px;
-        background: $dark-navy;
+        background: $ridge-night;
         transition: all 0.2s ease;
       }
       
-      &::before {
-        top: -6px;
-      }
-      
-      &::after {
-        top: 6px;
-      }
+      &::before { top: -6px; }
+      &::after { top: 6px; }
     }
     
     &.close {
@@ -138,7 +129,6 @@
   width: 100%;
 }
 
-// Visible links - Desktop horizontal, hidden on mobile
 .visible-links {
   display: none;
   margin: 0;
@@ -148,19 +138,18 @@
   @include breakpoint($medium) {
     display: flex;
     align-items: center;
-    gap: 0.2em;
+    gap: 0.1em;
   }
 }
 
-// Hidden links - Mobile dropdown menu
 .hidden-links {
   display: none;
   position: fixed;
-  top: 56px;
+  top: 52px;
   left: 0;
   right: 0;
   bottom: 0;
-  background: white;
+  background: $white;
   padding: 1em;
   margin: 0;
   list-style: none;
@@ -184,10 +173,10 @@
     display: block;
     padding: 1em 0.5em;
     font-size: 1em !important;
-    color: $slate-700;
+    color: $alpine-lake;
     
     &:hover {
-      color: $ocean-blue;
+      color: $sage-stone;
       background: transparent;
     }
   }
@@ -217,24 +206,21 @@
     
     a {
       font-size: 1em;
-      color: $dark-navy !important;
-      padding: 0.4em 0;
+      color: $ridge-night !important;
+      padding: 0.35em 0;
       
       @include breakpoint($medium) {
-        font-size: 1.1em;
+        font-size: 1.05em;
       }
       
       &:hover {
         background: transparent !important;
-        color: $link-color !important;
+        color: $sage-stone !important;
       }
     }
   }
 }
 
-/* ==========================================================================
-   Hide navigation on mobile - cleaner mobile experience
-   ========================================================================== */
 @media (max-width: 767px) {
   .masthead {
     display: none;

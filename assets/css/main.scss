@@ -36,7 +36,7 @@
 @import "print";
 
 /* ==========================================================================
-   PAPER BOX - Simple & Clean with Vertical Centering
+   PAPER BOX — clean academic list
    ========================================================================== */
 
 .paper-box {
@@ -45,7 +45,7 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 1.5em 0;
+    padding: 1.25em 0;
     border-bottom: 1px solid $border-color;
 
     .paper-box-image {
@@ -58,8 +58,8 @@
         
         img {
             max-width: 100%;
-            border-radius: $border-radius;
-            box-shadow: $box-shadow;
+            border-radius: $border-radius-sm;
+            border: 1px solid $border-color;
             object-fit: cover;
         }
     }
@@ -69,37 +69,72 @@
         order: 1;
         
         h2 {
-            font-size: 1.1em;
+            font-size: 1.2em;
             margin-top: 0;
-            margin-bottom: 0.5em;
+            margin-bottom: 0.3em;
             font-weight: 600;
-            color: $dark-navy;
+            font-family: $serif;
+            color: $ridge-night;
+            line-height: 1.35;
         }
         
         p {
-            color: $text-muted;
-            font-size: 0.95em;
-            line-height: 1.6;
+            color: $text-color;
+            font-size: 1em;
+            line-height: 1.55;
+            margin: 0 0 0.25em;
         }
-        
-        // Paper/Video/Code action links - bright blue
-        > a {
-            color: $bright-blue;
-            margin-right: 0.8em;
-            font-weight: 500;
-            
-            &:hover {
-                color: $ocean-blue;
+
+        .paper-venue {
+            display: block;
+            margin: 0.2em 0 0.6em;
+            color: $sage-stone;
+            font-weight: 400;
+            font-size: 0.98em;
+            font-style: italic;
+            font-family: $sans-serif;
+        }
+
+        .paper-links {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 0.55em;
+            margin-top: 0.2em;
+
+            a {
+                color: $sage-stone !important;
+                margin: 0;
+                font-weight: 500;
+                font-size: 0.98em;
+                text-decoration: none;
+
+                &:hover {
+                    color: $alpine-lake !important;
+                    text-decoration: underline;
+                }
+            }
+
+            .sep {
+                color: $cloud-fog;
+                font-size: 0.85em;
+                line-height: 1;
+                user-select: none;
+                pointer-events: none;
             }
         }
         
-        // Author links in paragraphs - ocean blue
-        p a {
-            color: $ocean-blue;
-            margin: 0;
-            
+        // Author name links
+        // Author name links match surrounding author text
+        p a[style] {
+            color: inherit !important;
+            font-size: inherit;
+            font-weight: inherit;
+            margin-right: 0;
+
             &:hover {
-                color: $deep-blue;
+                color: $sage-stone !important;
+                text-decoration: underline;
             }
         }
     }
@@ -109,9 +144,9 @@
         
         .paper-box-image {
             flex-shrink: 0;
-            min-width: 200px;
-            max-width: 280px;
-            width: 35%;
+            min-width: 180px;
+            max-width: 240px;
+            width: 30%;
             order: 1;
             
             img {
@@ -121,7 +156,7 @@
         
         .paper-box-text {
             flex: 1;
-            padding-left: 1.5em;
+            padding-left: 1.25em;
             max-width: none;
             order: 2;
         }
@@ -143,22 +178,21 @@ h1:before, .anchor:before {
 }
 
 /* ==========================================================================
-   BADGE - Conference Tags (Cold Blue Palette)
+   BADGE
    ========================================================================== */
 
 .badge {
     display: inline-block;
-    padding: 0.35rem 0.75rem;
+    padding: 0.2rem 0.55rem;
     position: relative;
-    margin-bottom: 0.6em;
-    color: white;
-    background: linear-gradient(135deg, $steel-blue 0%, $navy 100%);
+    margin-bottom: 0.5em;
+    color: $white;
+    background: $alpine-lake;
     font-size: 0.7em;
     font-weight: 600;
     font-family: $sans-serif;
-    letter-spacing: 0.03em;
-    border-radius: 20px;
-    box-shadow: 0 2px 8px rgba(30, 58, 95, 0.25);
+    letter-spacing: 0.02em;
+    border-radius: $border-radius-sm;
     text-transform: uppercase;
 }
 
@@ -167,53 +201,49 @@ h1:before, .anchor:before {
    ========================================================================== */
 
 .page__content h1 {
-    font-size: 1.4em;
+    font-size: 1.35em;
     font-weight: 600;
-    color: $dark-navy;
-    margin-top: 2em;
-    padding-bottom: 0.4em;
-    border-bottom: 2px solid $border-color;
+    font-family: $serif;
+    color: $ridge-night;
+    margin-top: 1.75em;
+    padding-bottom: 0.35em;
+    border-bottom: 1px solid $border-color;
     
-    // Style Font Awesome icons in headings - bright blue
     i.fas, i.fab, i.far {
-        margin-right: 0.4em;
-        color: $bright-blue;
+        margin-right: 0.35em;
+        color: $sage-stone;
         font-size: 0.85em;
     }
 }
 
 /* ==========================================================================
-   LIST ITEMS - Timeline styling
+   LIST ITEMS
    ========================================================================== */
 
 .page__content > ul {
     > li {
-        margin-bottom: 0.6em;
+        margin-bottom: 0.55em;
+        line-height: 1.55;
         
-        // Timeline dates - slate with light background
         em {
-            color: $slate-600;
+            color: $sage-stone;
             font-style: normal;
             font-weight: 600;
-            background: $slate-100;
-            padding: 0.15em 0.5em;
-            border-radius: $border-radius-sm;
-            font-size: 0.9em;
+            font-variant-numeric: tabular-nums;
         }
         
-        // Links in lists - ocean blue
         a {
-            color: $ocean-blue;
+            color: $sage-stone;
             
             &:hover {
-                color: $deep-blue;
+                color: $alpine-lake;
             }
         }
     }
 }
 
 /* ==========================================================================
-   X (Twitter) Icon - Custom styling
+   X (Twitter) Icon
    ========================================================================== */
 
 .fa-x-twitter::before {
@@ -224,20 +254,19 @@ h1:before, .anchor:before {
 }
 
 /* ==========================================================================
-   LINKS - Blue shades
+   LINKS
    ========================================================================== */
 
 .page__content a {
     text-decoration: none;
-    color: $ocean-blue;
+    color: $sage-stone;
     
     &:hover {
         text-decoration: underline;
-        color: $deep-blue;
+        color: $alpine-lake;
     }
 }
 
-/* Ensure no extra margin on inline links within paragraphs */
 .page__content p a,
 .paper-box-text p a {
     margin: 0 !important;
@@ -245,7 +274,6 @@ h1:before, .anchor:before {
     display: inline;
 }
 
-/* Fix inline author links - no gap before punctuation */
 .paper-box-text p {
     word-spacing: normal;
     
@@ -256,15 +284,15 @@ h1:before, .anchor:before {
 }
 
 /* ==========================================================================
-   SIDEBAR ICONS - Sky blue to ocean blue
+   SIDEBAR ICONS
    ========================================================================== */
 
 .author__urls a i,
 .author__urls_sm a i {
-    color: $sky-blue !important;
+    color: $sage-stone !important;
 }
 
 .author__urls a:hover i,
 .author__urls_sm a:hover i {
-    color: $ocean-blue !important;
+    color: $alpine-lake !important;
 }

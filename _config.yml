@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Quynh Le"
-description              : "Working on computer vision, computer graphics, and generative models."
+title                    : "Frankie Le"
+description              : "PhD student in Computer Science at Trinity College Dublin."
 repository               : "frankielp/frankielp.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Nhat-Quynh Le-Pham"
-  nickname         : "Frankie"
+  nickname         : "CS PhD Student at Trinity College Dublin"
   avatar           : "images/android-chrome-512x512.png"
   bio              : #""
   location         : # "Ho Chi Minh, Vietnam"

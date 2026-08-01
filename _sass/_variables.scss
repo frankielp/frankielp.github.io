@@ -1,28 +1,23 @@
 /* ==========================================================================
-   Variables
+   Variables — clean academic (palette as accents only)
+   #041421  text
+   #042630  headings
+   #4c7273  links / accent
+   #86b9b0  soft highlight
+   #d0d6d6  borders / muted
    ========================================================================== */
 
-/*
-   Typography
-   ========================================================================== */
+$doc-font-size              : 16;
 
-$doc-font-size              : 15;
-
-/* paragraph indention */
 $paragraph-indent           : false;
 $indent-var                 : 0.5em;
 
-/* system typefaces */
-$serif                      : Georgia, Times, serif;
-$sans-serif                 : "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$serif                      : "Source Serif 4", Georgia, "Times New Roman", serif;
+$sans-serif                 : "Source Sans 3", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$monospace                  : Monaco, Consolas, monospace;
 
-$monospace                  : "JetBrains Mono", Monaco, Consolas, monospace;
-
-/* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
 $helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
-
-/* serif typefaces */
 $georgia                    : Georgia, serif;
 $times                      : Times, serif;
 $bodoni                     : "Bodoni MT", serif;
@@ -30,53 +25,50 @@ $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
 $global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
+$header-font-family         : $serif;
 $caption-font-family        : $serif;
 
-/* type scale */
-$type-size-1                : 2.5em;
-$type-size-2                : 2em;
-$type-size-3                : 1.5em;
-$type-size-4                : 1.25em;
+$type-size-1                : 2.25em;
+$type-size-2                : 1.75em;
+$type-size-3                : 1.4em;
+$type-size-4                : 1.2em;
 $type-size-5                : 1em;
 $type-size-6                : 0.9em;
 $type-size-7                : 0.75em;
 $type-size-8                : 0.625em;
 
+// Brand palette
+$ridge-night                : #041421;
+$alpine-lake                : #042630;
+$sage-stone                 : #4c7273;
+$mist-meadow                : #86b9b0;
+$cloud-fog                  : #d0d6d6;
 
-/*
-   Colors - Cold Palette (Blue, Navy, Black, White, Gray)
-   ========================================================================== */
-
-// Core colors
 $white                      : #ffffff;
-$snow                       : #fafbfc;
-$light-ice                  : #f1f5f9;
-$ice-gray                   : #e2e8f0;
+$snow                       : #ffffff;
+$light-ice                  : #f7f8f8;
+$ice-gray                   : $cloud-fog;
 
-// Blues - Full spectrum from light to dark
-$pale-blue                  : #bae6fd;  // Very light
-$sky-blue                   : #38bdf8;  // Light
-$bright-blue                : #0ea5e9;  // Medium light
-$ocean-blue                 : #0284c7;  // Medium
-$deep-blue                  : #0369a1;  // Medium dark
-$steel-blue                 : #075985;  // Dark
-$navy                       : #1e3a5f;  // Very dark
-$dark-navy                  : #0f172a;  // Darkest
+$pale-blue                  : lighten($mist-meadow, 18%);
+$sky-blue                   : $mist-meadow;
+$bright-blue                : $sage-stone;
+$ocean-blue                 : $sage-stone;
+$deep-blue                  : $alpine-lake;
+$steel-blue                 : $alpine-lake;
+$navy                       : $ridge-night;
+$dark-navy                  : $ridge-night;
 
-// Grays - Slate family
-$slate-50                   : #f8fafc;
-$slate-100                  : #f1f5f9;
-$slate-200                  : #e2e8f0;
-$slate-300                  : #cbd5e1;
-$slate-400                  : #94a3b8;
-$slate-500                  : #64748b;
-$slate-600                  : #475569;
-$slate-700                  : #334155;
-$slate-800                  : #1e293b;
-$slate-900                  : #0f172a;
+$slate-50                   : #f7f8f8;
+$slate-100                  : #eef0f0;
+$slate-200                  : $cloud-fog;
+$slate-300                  : darken($cloud-fog, 10%);
+$slate-400                  : lighten($sage-stone, 20%);
+$slate-500                  : $sage-stone;
+$slate-600                  : darken($sage-stone, 6%);
+$slate-700                  : $alpine-lake;
+$slate-800                  : $alpine-lake;
+$slate-900                  : $ridge-night;
 
-// Mapped grays
 $gray                       : $slate-500;
 $dark-gray                  : $slate-600;
 $darker-gray                : $slate-700;
@@ -87,17 +79,16 @@ $body-color                 : $white;
 $background-color           : $white;
 $code-background-color      : $slate-100;
 $code-background-color-dark : $slate-200;
-$text-color                 : $slate-700;
-$text-muted                 : $slate-500;
-$border-color               : $slate-200;
+$text-color                 : $ridge-night;
+$text-muted                 : $sage-stone;
+$border-color               : $cloud-fog;
 
-$primary-color              : $ocean-blue;
-$success-color              : $ocean-blue;
-$warning-color              : $slate-500;
-$danger-color               : $slate-600;
-$info-color                 : $bright-blue;
+$primary-color              : $sage-stone;
+$success-color              : $mist-meadow;
+$warning-color              : $sage-stone;
+$danger-color               : $alpine-lake;
+$info-color                 : $mist-meadow;
 
-/* brands */
 $behance-color              : #1769FF;
 $dribbble-color             : #ea4c89;
 $facebook-color             : #3b5998;
@@ -119,18 +110,11 @@ $vine-color                 : #00bf8f;
 $youtube-color              : #ff0000;
 $xing-color                 : #006567;
 
-
-/* links */
-$link-color                 : $ocean-blue;
-$link-color-hover           : $deep-blue;
-$link-color-visited         : $ocean-blue;
-$masthead-link-color        : $slate-600;
-$masthead-link-color-hover  : $ocean-blue;
-
-
-/*
-   Breakpoints
-   ========================================================================== */
+$link-color                 : $sage-stone;
+$link-color-hover           : $alpine-lake;
+$link-color-visited         : $sage-stone;
+$masthead-link-color        : $alpine-lake;
+$masthead-link-color-hover  : $sage-stone;
 
 @include breakpoint-set("to ems", true);
 
@@ -139,10 +123,6 @@ $medium                     : 768px !default;
 $medium-wide                : 900px !default;
 $large                      : 925px !default;
 $x-large                    : 1280px !default;
-
-/*
-   Grid
-   ========================================================================== */
 
 $right-sidebar-width-narrow : 0px;
 $right-sidebar-width        : 0px;
@@ -159,15 +139,10 @@ $susy: (
   global-box-sizing: border-box,
 );
 
-
-/*
-   Other
-   ========================================================================== */
-
-$border-radius              : 8px;
-$border-radius-sm           : 4px;
-$box-shadow                 : 0 1px 3px rgba(0, 0, 0, 0.08);
-$box-shadow-lg              : 0 4px 12px rgba(0, 0, 0, 0.1);
+$border-radius              : 4px;
+$border-radius-sm           : 3px;
+$box-shadow                 : none;
+$box-shadow-lg              : none;
 $navicon-width              : 28px;
 $navicon-height             : 4px;
-$global-transition          : all 0.2s ease;
+$global-transition          : color 0.15s ease, border-color 0.15s ease;

@@ -15,12 +15,12 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-{% assign global_link_color = "#0074B8" %}
+{% assign global_link_color = "#4c7273" %}
 
 <span class='anchor' id='about-me'></span>
-I am currently a Research Resident at <a href="https://www.qualcomm.com/research/artificial-intelligence/ai-residency-program" style="color: {{ global_link_color }}; text-decoration: none;">Qualcomm AI Research</a> under the supervision of <a href="https://sonhua.github.io" style="color: {{ global_link_color }}; text-decoration: none;">Prof. Binh-Son Hua</a>. I received my Bachelor’s degree in Computer Science (APCS) from the <a href="https://en.hcmus.edu.vn" style="color: {{ global_link_color }}; text-decoration: none;">University of Science, Vietnam National University Ho Chi Minh City</a>.
+I am currently a PhD student in Computer Science at <a href="https://www.tcd.ie/scss/" style="color: {{ global_link_color }}; text-decoration: none;">Trinity College Dublin</a> under the supervision of <a href="https://sonhua.github.io" style="color: {{ global_link_color }}; text-decoration: none;">Prof. Binh-Son Hua</a>. I received my Bachelor’s degree in Computer Science (APCS) from the <a href="https://en.hcmus.edu.vn" style="color: {{ global_link_color }}; text-decoration: none;">University of Science, Vietnam National University Ho Chi Minh City</a>.
 
-My research interests focus on computer vision, computer graphics, and generative models. I am interested in simulating realistic 3D worlds using physically grounded generative models that integrate geometry, appearance, and motion.
+My research interests focus on artificial intelligence, computer vision and computer graphics, with a particular emphasis on 3D understanding and 3D/4D generative modeling. I am interested in building models that can perceive, represent, and generate dynamic 3D worlds.
 
 
 # <i class="fas fa-bell"></i> News
@@ -30,49 +30,72 @@ models.
 - *2023.08*: Joined **VinAI Research** as a Research Resident, working on 3D/4D modeling and neural scene representations.
 
 # <i class="fas fa-briefcase"></i> Experience
-- *2025.02 - Present*, Research Resident at <a href="https://www.qualcomm.com/research/artificial-intelligence/ai-residency-program" style="color: {{ global_link_color }}; text-decoration: none;">Qualcomm AI Research</a>
-- *2025.08 - 2025.10*, AI Engineer at <a href="https://www.cloudthinker.io" style="color: {{ global_link_color }}; text-decoration: none;">CloudThinker</a>.
-- *2023.08 - 2025.02*, Research Resident at <a href="https://www.vinai.io" style="color: {{ global_link_color }}; text-decoration: none;">VinAI Research</a>.
+- *2025.04 - 2026.02*, Research Resident at <a href="https://www.qualcomm.com/research/artificial-intelligence/ai-residency-program" style="color: {{ global_link_color }}; text-decoration: none;">Qualcomm AI Research</a>
+- *2023.08 - 2025.04*, Research Resident at <a href="https://www.vinai.io" style="color: {{ global_link_color }}; text-decoration: none;">VinAI Research</a>.
 - *2021.06 - 2021.12*, Data Scientist Intern at <a href="https://mti-vietnam.vn" style="color: {{ global_link_color }}; text-decoration: none;">AI Lab, MTI Technology</a>.
 
 # <i class="fas fa-file-alt"></i> Publications 
 
-<!-- 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<a href="https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf" style="color: {{ global_link_color }}; text-decoration: none;">Deep Residual Learning for Image Recognition</a>
-
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-<a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC" style="color: {{ global_link_color }}; text-decoration: none;"><b>Project</b></a> <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div> 
--->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 (Under Review)</div><img src='assets/files/cvpr26.gif' alt="CVPR 2026" width="100%" style="display:block;"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='assets/files/cvpr26.gif' alt="CVPR 2026" width="100%" style="display:block;"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## Prepare Lighter and Faster for Open-Vocabulary Queries: A Query-Wise 3D Segmenter for Gaussian Splatting
 
-**Nhat-Quynh Le-Pham**, <a href="https://www.khoinguyen.org" style="color: {{ global_link_color }}; text-decoration: none;">Khoi Nguyen</a>, <a href="https://sonhua.github.io" style="color: {{ global_link_color }}; text-decoration: none;">Binh-Son Hua</a>
+**Nhat-Quynh Le-Pham**, <a href="https://www.khoinguyen.org" style="color: inherit; text-decoration: none;">Khoi Nguyen</a>, <a href="https://sonhua.github.io" style="color: inherit; text-decoration: none;">Binh-Son Hua</a>
 
-<!-- <a href="https://drive.google.com/file/d/1uR7k793JVMszBk53--x0GA3NtRxbDGg7/view?usp=sharing" style="color: {{ global_link_color }}; text-decoration: none;">Paper</a> <a href="https://drive.google.com/file/d/1y9SEKR3Y4CYbSyte_sAc-Gn0N7NJKJV9B/view?usp=sharing" style="color: {{ global_link_color }}; text-decoration: none;">Video</a> <strong><span class='show_paper_citations'></span></strong> -->
-- Proposed a novel on-device, lightning-fast query-wise open-vocabulary 3D instance segmentation framework for 2D/3D Gaussian Splatting. 
-- Achieved state-of-the-art runtime efficiency and visual quality.
+<span class="paper-venue">Under Review</span>
 
 </div>
 </div>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Bachelor Thesis 2024</div><img src='assets/files/thesis.gif' alt="Bachelor Thesis" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='assets/files/thesis.gif' alt="Bachelor Thesis" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## Text-to-4D Content Creation using Image Priors and Monocular Driver Videos
 
 **Nhat-Quynh Le-Pham**
 
-<a href="https://drive.google.com/file/d/1ihvTYUEt8lxXPgZGXERvWtlCSeLXX2L9/view?usp=sharing" style="color: {{ global_link_color }}; text-decoration: none;">Thesis</a> <a href="https://drive.google.com/file/d/15mE_6cMyK4Be8br0dkMol-sspreohjNZ/view?usp=sharing" style="color: {{ global_link_color }}; text-decoration: none;">Video</a> <strong><span class='show_paper_citations'></span></strong>
-- Developed an end-to-end framework for controllable, high-quality 4D object generation from text prompts using only image priors and monocular driver videos, removing reliance on heavy video diffusion models.
-- Successfully defended with a perfect score (10/10).
+<span class="paper-venue">Bachelor Thesis (Highest Distinction)</span>
+
+<span class="paper-links"><a href="https://drive.google.com/file/d/1ihvTYUEt8lxXPgZGXERvWtlCSeLXX2L9/view?usp=sharing">Thesis</a><span class="sep" aria-hidden="true">·</span><a href="https://drive.google.com/file/d/15mE_6cMyK4Be8br0dkMol-sspreohjNZ/view?usp=sharing">Video</a></span>
+
+</div>
+</div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='assets/files/sketchanimar.png' alt="SketchANIMAR" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+## SketchANIMAR: Sketch-Based 3D Animal Fine-Grained Retrieval
+
+Trong-Vu Hoang, Quang-Binh Nguyen, **Nhat-Quynh Le-Pham**, Huu-Phuc Pham, Hai-Dang Nguyen
+
+<span class="paper-venue">Computers & Graphics 2023 (Elsevier)</span>
+
+<span class="paper-links"><a href="https://arxiv.org/abs/2304.05731">Paper</a><span class="sep" aria-hidden="true">·</span><a href="https://drive.google.com/file/d/1wVQeink44cxzLrh4JH1ZSwTgcAwcN-5V/view">Working Notes</a><span class="sep" aria-hidden="true">·</span><a href="https://github.com/htrvu/SHREC2023-ANIMAR">Code</a></span>
+
+</div>
+</div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='assets/files/textanimar.png' alt="TextANIMAR" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+## TextANIMAR: Text-Based 3D Animal Fine-Grained Retrieval
+
+**Nhat-Quynh Le-Pham**, Huu-Phuc Pham, Trong-Vu Hoang, Quang-Binh Nguyen, Hai-Dang Nguyen
+
+<span class="paper-venue">Computers & Graphics 2023 (Elsevier)</span>
+
+<span class="paper-links"><a href="https://arxiv.org/abs/2304.06053">Paper</a><span class="sep" aria-hidden="true">·</span><a href="https://drive.google.com/file/d/14Rp4Tti5X0z6yvxfBQq-XxyKLU2BrgV7/view">Working Notes</a><span class="sep" aria-hidden="true">·</span><a href="https://github.com/htrvu/SHREC2023-ANIMAR">Code</a></span>
+
+</div>
+</div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='assets/files/shrec22.png' alt="SHREC 2022" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+## Fitting and Recognition of Simple Geometric Primitives on Point Clouds
+
+**Nhat-Quynh Le-Pham**\*, Dinh-Khoi Vo\*, Tuan-An To\*, Nham-Tan Nguyen\*, Hai-Dang Nguyen, Minh-Triet Tran
+
+<span class="paper-venue">Computers & Graphics 2022 (Elsevier)</span>
+
+<span class="paper-links"><a href="https://arxiv.org/abs/2206.07636">Paper</a><span class="sep" aria-hidden="true">·</span><a href="https://github.com/frankielp/SHREC2022-Fitting-and-recognition-of-simple-geometric-primitives-on-point-clouds">Code</a></span>
 
 </div>
 </div>
@@ -80,48 +103,7 @@ models.
 <span class='anchor' id='-patents'></span>
 # <i class="fas fa-certificate"></i> Patents
 
-- Query-based Open-vocabulary 3D object segmentation from Gaussian Splats, **Nhat-Quynh Le-Pham**, <a href="https://www.khoinguyen.org" style="color: {{ global_link_color }}; text-decoration: none;">Khoi Nguyen</a>, <a href="https://sonhua.github.io" style="color: {{ global_link_color }}; text-decoration: none;">Binh-Son Hua</a>, **US Patent**
-
-# <i class="fas fa-book"></i> Workshops & Journals
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">3DOR 2023</div><img src='assets/files/sketchanimar.png' alt="SketchANIMAR" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-## SketchANIMAR: Sketch-Based 3D Animal Fine-Grained Retrieval
-
-**Published in Computers & Graphics (Elsevier, Q1)**
-
-<a href="https://arxiv.org/abs/2304.05731" style="color: {{ global_link_color }}; text-decoration: none;">Paper</a> <a href="https://github.com/htrvu/SHREC2023-ANIMAR" style="color: {{ global_link_color }}; text-decoration: none;">Code</a> <strong><span class='show_paper_citations'></span></strong>
-- Developed a cross-domain contrastive learning framework aligning 3D objects with sketches and text via cosine similarity using an EfficientNetV2-Small-based feature extraction pipeline with Canny edge + KMeans-based dataset augmentation.
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">3DOR 2023</div><img src='assets/files/textanimar.png' alt="TextANIMAR" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-## TextANIMAR: Text-Based 3D Animal Fine-Grained Retrieval
-
-**Published in Computers & Graphics (Elsevier, Q1)**
-
-<a href="https://arxiv.org/abs/2304.06053" style="color: {{ global_link_color }}; text-decoration: none;">Paper</a> <a href="https://github.com/htrvu/SHREC2023-ANIMAR" style="color: {{ global_link_color }}; text-decoration: none;">Code</a> <strong><span class='show_paper_citations'></span></strong>
-- Built a contrastive learning framework that aligns 3D objects and text using CLIP and EfficientNetV2-Small features, with KMeans dataset augmentation, improving Nearest Neighbor retrieval performance.
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">3DOR 2022</div><img src='assets/files/shrec22.png' alt="SHREC 2022" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-## Fitting and Recognition of Simple Geometric Primitives on Point Clouds
-
-**Published in Computers & Graphics (Elsevier, Q1)**
-
-<a href="https://arxiv.org/abs/2206.07636" style="color: {{ global_link_color }}; text-decoration: none;">Paper</a> <a href="https://github.com/frankielp/SHREC2022-Fitting-and-recognition-of-simple-geometric-primitives-on-point-clouds" style="color: {{ global_link_color }}; text-decoration: none;">Code</a> <strong><span class='show_paper_citations'></span></strong>
-- Proposed a PointNet-based approach for geometric primitive recognition in point clouds, employing least squares fitting and majority voting for robust classification.
-
-</div>
-</div>
+- Query-based Open-vocabulary 3D object segmentation from Gaussian Splats, **Nhat-Quynh Le-Pham**, <a href="https://www.khoinguyen.org" style="color: inherit; text-decoration: none;">Khoi Nguyen</a>, <a href="https://sonhua.github.io" style="color: inherit; text-decoration: none;">Binh-Son Hua</a>, **US Patent**
 
 # <i class="fas fa-award"></i> Honors and Awards
 - *2023.10* Awarded the **Vietnam Female Students in Science and Technology Award** (Top 20 nationwide).
