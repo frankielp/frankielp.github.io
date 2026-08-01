@@ -27,7 +27,7 @@ My research interests focus on artificial intelligence, computer vision and comp
 - *2026.08*: Moved to **Dublin, Ireland** to pursue a PhD in Computer Science at **Trinity College Dublin**, focusing on dynamic 3D reconstruction.
 - *2025.02*: Transitioned to **Qualcomm AI Research** as a Research Resident, focusing on open-vocabulary 3D understanding and physically grounded generative
 models.
-- *2023.10*: Won the **Vietnam Female Students in Science and Technology Award** (Top 20 nationwide).
+- *2023.10*: Won the **Vietnam Female Students in Science and Technology Award**.
 - *2023.08*: Joined **VinAI Research** as a Research Resident, working on 3D/4D modeling and neural scene representations.
 
 # <i class="fas fa-file-alt"></i> Publications 
@@ -118,7 +118,7 @@ Trong-Vu Hoang, <a href="https://nqbinhcs.github.io" style="color: inherit; text
 - *2021.06 - 2021.12*, Data Scientist Intern at <a href="https://mti-vietnam.vn" style="color: {{ global_link_color }}; text-decoration: none;">AI Lab, MTI Technology</a>.
 
 # <i class="fas fa-award"></i> Honors and Awards
-- *2023.10* Awarded the **Vietnam Female Students in Science and Technology Award** (Top 20 nationwide).
+- *2023.10* Awarded the **Vietnam Female Students in Science and Technology Award**.
 - *2023.03* Received the **Top GPA Scholarship** from the Faculty of Information Technology, University of Science (Top 1%).
 - *2023.03* **First Prize**, SHREC 2023 — Sketch-Based 3D Animal Fine-Grained Retrieval (3DOR’23).
 - *2023.03* **First Prize**, SHREC 2023 — Text-Based 3D Animal Fine-Grained Retrieval (3DOR’23).
