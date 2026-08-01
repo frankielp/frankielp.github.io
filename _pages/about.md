@@ -32,6 +32,17 @@ models.
 
 # <i class="fas fa-file-alt"></i> Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><img src='assets/files/truncgradgs.png' alt="TruncGradGS" width="100%" style="display:block;"></div></div>
+<div class='paper-box-text' markdown="1">
+
+## TruncGradGS: Improved 3D Gaussian Splatting via Truncated Gradient Updates
+
+<a href="https://www.theomorales.com" style="color: inherit; text-decoration: none;">Theo Morales</a>, **Nhat-Quynh Le-Pham**, <a href="https://scholar.google.com/citations?user=qs0D_UUAAAAJ&hl=en" style="color: inherit; text-decoration: none;">Robin Atkins</a>, <a href="https://sonhua.github.io" style="color: inherit; text-decoration: none;">Binh-Son Hua</a>
+
+<span class="paper-venue">Under Review</span>
+
+</div>
+</div>
 <div class='paper-box'><div class='paper-box-image'><div><img src='assets/files/cvpr26.gif' alt="CVPR 2026" width="100%" style="display:block;"></div></div>
 <div class='paper-box-text' markdown="1">
 
