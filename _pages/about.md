@@ -20,15 +20,28 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 I am currently a PhD student in Computer Science at <a href="https://www.tcd.ie/scss/" style="color: {{ global_link_color }}; text-decoration: none;">Trinity College Dublin</a> under the supervision of <a href="https://sonhua.github.io" style="color: {{ global_link_color }}; text-decoration: none;">Prof. Binh-Son Hua</a>. Previously, I was a Research Resident at <a href="https://www.qualcomm.com/research/artificial-intelligence/ai-residency-program" style="color: {{ global_link_color }}; text-decoration: none;">Qualcomm AI Research</a>. I received my Bachelor’s degree in Computer Science (APCS) from the <a href="https://en.hcmus.edu.vn" style="color: {{ global_link_color }}; text-decoration: none;">University of Science, Vietnam National University Ho Chi Minh City</a>.
 
-My research interests focus on artificial intelligence, computer vision and computer graphics, with a particular emphasis on 3D understanding and 3D/4D generative modeling. I am interested in building models that can perceive, represent, and generate dynamic 3D worlds.
+My research interests focus on artificial intelligence, computer vision and computer graphics, with a particular emphasis on <strong>3D understanding</strong> and <strong>3D/4D generative modeling</strong>. I am interested in building models that can perceive, represent, and generate dynamic 3D worlds.
 
 
 # <i class="fas fa-bell"></i> News
-- *2026.08*: Moved to **Dublin, Ireland** to pursue a PhD in Computer Science at **Trinity College Dublin**, focusing on dynamic 3D reconstruction.
-- *2025.02*: Transitioned to **Qualcomm AI Research** as a Research Resident, focusing on open-vocabulary 3D understanding and physically grounded generative
-models.
-- *2023.10*: Won the **Vietnam Female Students in Science and Technology Award**.
-- *2023.08*: Joined **VinAI Research** as a Research Resident, working on 3D/4D modeling and neural scene representations.
+<div class="news-scroll">
+  <div class="news-item">
+    <span class="news-date">2026.08</span>
+    <p class="news-text">Moved to <strong>Dublin, Ireland</strong> 🇮🇪 to pursue a PhD in Computer Science at <strong>Trinity College Dublin</strong>, focusing on dynamic 3D reconstruction.</p>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2025.02</span>
+    <p class="news-text">Transitioned to <strong>Qualcomm AI Research</strong> as a Research Resident, focusing on open-vocabulary 3D understanding and physically grounded generative models.</p>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2023.10</span>
+    <p class="news-text">Won the <strong>Vietnam Female Students in Science and Technology Award</strong> 🇻🇳.</p>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2023.08</span>
+    <p class="news-text">Joined <strong>VinAI Research</strong> as a Research Resident, working on 3D/4D modeling and neural scene representations.</p>
+  </div>
+</div>
 
 # <i class="fas fa-file-alt"></i> Publications 
 
@@ -113,17 +126,17 @@ Trong-Vu Hoang, <a href="https://nqbinhcs.github.io" style="color: inherit; text
 - Query-based Open-vocabulary 3D object segmentation from Gaussian Splats, **Nhat-Quynh Le-Pham**, <a href="https://www.khoinguyen.org" style="color: inherit; text-decoration: none;">Khoi Nguyen</a>, <a href="https://sonhua.github.io" style="color: inherit; text-decoration: none;">Binh-Son Hua</a>, **US Patent**
 
 # <i class="fas fa-briefcase"></i> Experience
-- *2025.04 - 2026.02*, Research Resident at <a href="https://www.qualcomm.com/research/artificial-intelligence/ai-residency-program" style="color: {{ global_link_color }}; text-decoration: none;">Qualcomm AI Research</a>
-- *2023.08 - 2025.04*, Research Resident at <a href="https://www.vinai.io" style="color: {{ global_link_color }}; text-decoration: none;">VinAI Research</a>.
-- *2021.06 - 2021.12*, Data Scientist Intern at <a href="https://mti-vietnam.vn" style="color: {{ global_link_color }}; text-decoration: none;">AI Lab, MTI Technology</a>.
+- <span class="news-date">2025.04 – 2026.02</span> Research Resident at <a href="https://www.qualcomm.com/research/artificial-intelligence/ai-residency-program" style="color: {{ global_link_color }}; text-decoration: none;">Qualcomm AI Research</a>
+- <span class="news-date">2023.08 – 2025.04</span> Research Resident at <a href="https://www.vinai.io" style="color: {{ global_link_color }}; text-decoration: none;">VinAI Research</a>.
+- <span class="news-date">2021.06 – 2021.12</span> Data Scientist Intern at <a href="https://mti-vietnam.vn" style="color: {{ global_link_color }}; text-decoration: none;">AI Lab, MTI Technology</a>.
 
 # <i class="fas fa-award"></i> Honors and Awards
-- *2023.10* Awarded the **Vietnam Female Students in Science and Technology Award**.
-- *2023.03* Received the **Top GPA Scholarship** from the Faculty of Information Technology, University of Science (Top 1%).
-- *2023.03* **First Prize**, SHREC 2023 — Sketch-Based 3D Animal Fine-Grained Retrieval (3DOR’23).
-- *2023.03* **First Prize**, SHREC 2023 — Text-Based 3D Animal Fine-Grained Retrieval (3DOR’23).
-- *2022.02* **3rd Place**, SHREC 2022 — Fitting and Recognition of Geometric Primitives (3DOR’22).
-- *2021.12* **Finalist**, Ho Chi Minh City AI Challenge.
+- <span class="news-date">2023.10</span> Awarded the **Vietnam Female Students in Science and Technology Award**.
+- <span class="news-date">2023.03</span> Received the **Top GPA Scholarship** from the Faculty of Information Technology, University of Science (Top 1%).
+- <span class="news-date">2023.03</span> **1st Place**, SHREC 2023 — Sketch-Based 3D Animal Fine-Grained Retrieval (3DOR’23).
+- <span class="news-date">2023.03</span> **1st Place**, SHREC 2023 — Text-Based 3D Animal Fine-Grained Retrieval (3DOR’23).
+- <span class="news-date">2022.02</span> **3rd Place**, SHREC 2022 — Fitting and Recognition of Geometric Primitives (3DOR’22).
+- <span class="news-date">2021.12</span> **Finalist**, Ho Chi Minh City AI Challenge.
 
 # <i class="fas fa-users"></i> Professional Services
 - Reviewers: CVPRW 2025, ICCV 2025, ICLR 2026.

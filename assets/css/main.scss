@@ -191,7 +191,7 @@ h1:before, .anchor:before {
     position: relative;
     margin-bottom: 0.5em;
     color: $white;
-    background: $alpine-lake;
+    background: $accent-gradient;
     font-size: 0.7em;
     font-weight: 600;
     font-family: $sans-serif;
@@ -217,6 +217,94 @@ h1:before, .anchor:before {
         margin-right: 0.35em;
         color: $sage-stone;
         font-size: 0.85em;
+    }
+}
+
+/* ==========================================================================
+   NEWS — scrollable timeline
+   ========================================================================== */
+
+.news-scroll {
+    position: relative;
+    max-height: 13.5em;
+    overflow-y: auto;
+    margin: 0.4em 0 1.75em;
+    padding: 0 0.5em 0 0;
+    background: transparent;
+    border: none;
+    scrollbar-width: thin;
+    scrollbar-color: darken($cloud-fog, 8%) transparent;
+
+    &::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: darken($cloud-fog, 6%);
+        border-radius: 4px;
+    }
+}
+
+.news-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.85em;
+    padding: 0.85em 0.25em 0.85em 0;
+    border-bottom: 1px solid rgba($sage-stone, 0.14);
+
+    &:last-child {
+        border-bottom: none;
+        padding-bottom: 1.1em;
+    }
+}
+
+.news-date {
+    display: inline-block;
+    flex: 0 0 auto;
+    min-width: 4.6em;
+    margin: 0 0.35em 0 0;
+    padding: 0.22em 0.55em;
+    color: $white;
+    background: $accent-gradient;
+    border-radius: 4px;
+    font-size: 0.78em;
+    font-weight: 600;
+    font-family: $sans-serif;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.02em;
+    text-align: center;
+    line-height: 1.3;
+    vertical-align: 0.1em;
+    white-space: nowrap;
+}
+
+.news-item .news-date {
+    margin-top: 0.12em;
+    margin-right: 0;
+}
+
+.news-text {
+    flex: 1;
+    margin: 0 !important;
+    color: $ridge-night;
+    font-size: 0.95em;
+    line-height: 1.55;
+
+    strong {
+        font-weight: 600;
+        color: $ridge-night;
+    }
+
+    a {
+        color: $sage-stone;
+
+        &:hover {
+            color: $alpine-lake;
+        }
     }
 }
 
@@ -291,12 +379,18 @@ h1:before, .anchor:before {
    SIDEBAR ICONS
    ========================================================================== */
 
-.author__urls a i,
+.author__urls a i {
+    color: inherit !important;
+}
+
+.author__urls a:hover i {
+    color: inherit !important;
+}
+
 .author__urls_sm a i {
     color: $sage-stone !important;
 }
 
-.author__urls a:hover i,
 .author__urls_sm a:hover i {
-    color: $alpine-lake !important;
+    color: $cloud-fog !important;
 }

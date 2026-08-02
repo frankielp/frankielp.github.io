@@ -89,6 +89,9 @@ $warning-color              : $sage-stone;
 $danger-color               : $alpine-lake;
 $info-color                 : $mist-meadow;
 
+$accent-gradient            : linear-gradient(135deg, $alpine-lake 0%, $sage-stone 100%);
+$accent-gradient-deep       : linear-gradient(135deg, $ridge-night 0%, $alpine-lake 55%, $sage-stone 100%);
+
 $behance-color              : #1769FF;
 $dribbble-color             : #ea4c89;
 $facebook-color             : #3b5998;
