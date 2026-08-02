@@ -96,7 +96,7 @@ Trong-Vu Hoang, <a href="https://nqbinhcs.github.io" style="color: inherit; text
 <div class='paper-box'><div class='paper-box-image'><div><img src='assets/files/shrec22.png' alt="SHREC 2022" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-## Fitting and Recognition of Simple Geometric Primitives on Point Clouds
+## SHREC 2022: Fitting and recognition of simple geometric primitives on point clouds
 
 **Nhat-Quynh Le-Pham**\*, Dinh-Khoi Vo\*, Tuan-An To\*, Nham-Tan Nguyen\*, Hai-Dang Nguyen, Minh-Triet Tran
 
