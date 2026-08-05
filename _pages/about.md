@@ -45,7 +45,7 @@ My research interests focus on artificial intelligence, computer vision and comp
 
 # <i class="fas fa-file-alt"></i> Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='assets/files/truncgradgs.png' alt="TruncGradGS" width="100%" style="display:block;"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='assets/files/cvpr26.gif' alt="CVPR 2026" width="100%" style="display:block;"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## Prepare Lighter and Faster for Open-Vocabulary Queries: A Query-Wise 3D Segmenter for Gaussian Splatting
@@ -56,7 +56,7 @@ My research interests focus on artificial intelligence, computer vision and comp
 
 </div>
 </div>
-<div class='paper-box'><div class='paper-box-image'><div><img src='assets/files/thesis.gif' alt="Bachelor Thesis" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='assets/files/truncgradgs.png' alt="TruncGradGS" width="100%" style="display:block;"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## TruncGradGS: Improved 3D Gaussian Splatting via Truncated Gradient Updates
@@ -67,7 +67,7 @@ My research interests focus on artificial intelligence, computer vision and comp
 
 </div>
 </div>
-<div class='paper-box'><div class='paper-box-image'><div><img src='assets/files/cvpr26.gif' alt="CVPR 2026" width="100%" style="display:block;"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='assets/files/thesis.gif' alt="Bachelor Thesis" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## Text-to-4D Content Creation using Image Priors and Monocular Driver Videos
