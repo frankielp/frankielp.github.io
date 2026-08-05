@@ -48,17 +48,6 @@ My research interests focus on artificial intelligence, computer vision and comp
 <div class='paper-box'><div class='paper-box-image'><div><img src='assets/files/truncgradgs.png' alt="TruncGradGS" width="100%" style="display:block;"></div></div>
 <div class='paper-box-text' markdown="1">
 
-## TruncGradGS: Improved 3D Gaussian Splatting via Truncated Gradient Updates
-
-<a href="https://www.theomorales.com" style="color: inherit; text-decoration: none;">Theo Morales</a>, **Nhat-Quynh Le-Pham**, <a href="https://scholar.google.com/citations?user=qs0D_UUAAAAJ&hl=en" style="color: inherit; text-decoration: none;">Robin Atkins</a>, <a href="https://sonhua.github.io" style="color: inherit; text-decoration: none;">Binh-Son Hua</a>
-
-<span class="paper-venue">Under Review</span>
-
-</div>
-</div>
-<div class='paper-box'><div class='paper-box-image'><div><img src='assets/files/cvpr26.gif' alt="CVPR 2026" width="100%" style="display:block;"></div></div>
-<div class='paper-box-text' markdown="1">
-
 ## Prepare Lighter and Faster for Open-Vocabulary Queries: A Query-Wise 3D Segmenter for Gaussian Splatting
 
 **Nhat-Quynh Le-Pham**, <a href="https://www.khoinguyen.org" style="color: inherit; text-decoration: none;">Khoi Nguyen</a>, <a href="https://sonhua.github.io" style="color: inherit; text-decoration: none;">Binh-Son Hua</a>
@@ -68,6 +57,17 @@ My research interests focus on artificial intelligence, computer vision and comp
 </div>
 </div>
 <div class='paper-box'><div class='paper-box-image'><div><img src='assets/files/thesis.gif' alt="Bachelor Thesis" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+## TruncGradGS: Improved 3D Gaussian Splatting via Truncated Gradient Updates
+
+<a href="https://www.theomorales.com" style="color: inherit; text-decoration: none;">Theo Morales</a>, **Nhat-Quynh Le-Pham**, <a href="https://scholar.google.com/citations?user=qs0D_UUAAAAJ&hl=en" style="color: inherit; text-decoration: none;">Robin Atkins</a>, <a href="https://sonhua.github.io" style="color: inherit; text-decoration: none;">Binh-Son Hua</a>
+
+<span class="paper-venue">Pacific Graphics 2026</span>
+
+</div>
+</div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='assets/files/cvpr26.gif' alt="CVPR 2026" width="100%" style="display:block;"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## Text-to-4D Content Creation using Image Priors and Monocular Driver Videos
@@ -87,7 +87,7 @@ My research interests focus on artificial intelligence, computer vision and comp
 
 Trong-Vu Hoang, <a href="https://nqbinhcs.github.io" style="color: inherit; text-decoration: none;">Quang-Binh Nguyen</a>, **Nhat-Quynh Le-Pham**, Huu-Phuc Pham, Hai-Dang Nguyen
 
-<span class="paper-venue">3DOR’23 · Computers & Graphics</span>
+<span class="paper-venue">3DOR’23 · Computers & Graphics Journal</span>
 
 <span class="paper-links"><a href="https://arxiv.org/abs/2304.05731">Paper</a><span class="sep" aria-hidden="true">·</span><a href="https://drive.google.com/file/d/1wVQeink44cxzLrh4JH1ZSwTgcAwcN-5V/view">Working Notes</a><span class="sep" aria-hidden="true">·</span><a href="https://github.com/htrvu/SHREC2023-ANIMAR">Code</a></span>
 
@@ -100,7 +100,7 @@ Trong-Vu Hoang, <a href="https://nqbinhcs.github.io" style="color: inherit; text
 
 **Nhat-Quynh Le-Pham**, Huu-Phuc Pham, Trong-Vu Hoang, <a href="https://nqbinhcs.github.io" style="color: inherit; text-decoration: none;">Quang-Binh Nguyen</a>, Hai-Dang Nguyen
 
-<span class="paper-venue">3DOR’23 · Computers & Graphics</span>
+<span class="paper-venue">3DOR’23 · Computers & Graphics Journal</span>
 
 <span class="paper-links"><a href="https://arxiv.org/abs/2304.06053">Paper</a><span class="sep" aria-hidden="true">·</span><a href="https://drive.google.com/file/d/14Rp4Tti5X0z6yvxfBQq-XxyKLU2BrgV7/view">Working Notes</a><span class="sep" aria-hidden="true">·</span><a href="https://github.com/htrvu/SHREC2023-ANIMAR">Code</a></span>
 
@@ -113,7 +113,7 @@ Trong-Vu Hoang, <a href="https://nqbinhcs.github.io" style="color: inherit; text
 
 **Nhat-Quynh Le-Pham**\*, Dinh-Khoi Vo\*, Tuan-An To\*, Nham-Tan Nguyen\*, Hai-Dang Nguyen, Minh-Triet Tran
 
-<span class="paper-venue">3DOR’22 · Computers & Graphics</span>
+<span class="paper-venue">3DOR’22 · Computers & Graphics Journal</span>
 
 <span class="paper-links"><a href="https://arxiv.org/abs/2206.07636">Paper</a><span class="sep" aria-hidden="true">·</span><a href="https://github.com/frankielp/SHREC2022-Fitting-and-recognition-of-simple-geometric-primitives-on-point-clouds">Code</a></span>
 
