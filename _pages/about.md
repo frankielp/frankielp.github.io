@@ -65,6 +65,8 @@ My research interests focus on artificial intelligence, computer vision and comp
 
 <span class="paper-venue">Pacific Graphics 2026</span>
 
+<span class="paper-links"><a href="https://arxiv.org/abs/2609.03534">Paper</a><span class="sep" aria-hidden="true">·</span><a href="https://dubiouscactus.github.io/trunc-grad-gs/">Project</a><span class="sep" aria-hidden="true">·</span><a href="https://github.com/trinity-graphics/truncgradgs">Code</a></span>
+
 </div>
 </div>
 <div class='paper-box'><div class='paper-box-image'><div><img src='assets/files/thesis.gif' alt="Bachelor Thesis" width="100%"></div></div>
