@@ -213,6 +213,17 @@
       box-shadow: 0 3px 10px rgba($ridge-night, 0.18);
       text-decoration: none;
     }
+
+    &:focus,
+    &:focus-visible {
+      outline: none;
+      box-shadow: none;
+    }
+
+    &:focus-visible {
+      border-color: $sage-stone;
+      box-shadow: 0 0 0 2px rgba($sage-stone, 0.25);
+    }
     
     i {
       width: auto;
@@ -254,6 +265,16 @@
       color: $white;
       background: $accent-gradient;
       border-color: transparent;
+    }
+
+    &:focus,
+    &:focus-visible {
+      outline: none;
+    }
+
+    &:focus-visible {
+      border-color: $sage-stone;
+      box-shadow: 0 0 0 2px rgba($sage-stone, 0.25);
     }
     
     i {

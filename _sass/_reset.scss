@@ -70,9 +70,12 @@ a {
   color: $link-color;
 }
 
-/* Apply focus state */
-
+/* Keyboard focus only — avoid sticky box after mouse click */
 a:focus {
+  outline: none;
+}
+
+a:focus-visible {
   @extend %tab-focus;
 }
 
